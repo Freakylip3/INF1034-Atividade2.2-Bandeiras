@@ -2,4 +2,44 @@
 #gana méd
 #kuwait méd
 #grecia méd
+#mianmar
+
+from turtle import * 
+from time import sleep
+x_começa= -150
+y_começa= 100
+largura_T= 300
+altura_T= 200
+altura_M= 300/3
+
+t= Turtle 
+
+retangulo('blue', x_começa, y_começa, largura_T, altura_T)
+retangulo('white',-200, 200, 133, 200)
+retangulo('red', -200, 100, 133, 200)
+ 
+
+
+
+
+
+
+def retangulo(color, x, y, largura, altura):
+    t.pu()
+    t.goto(x, y)
+    t,pd
+    t.color(color)
+    t.begin_fill()
+    for  _ in range(2):
+        t.foward(largura)
+        t.rt(90)
+        t.foward(altura)
+        t.rt(90)
+    t.end_fill()
+
+
+
+mainloop()
+#---------------------------------------------------
+
 
